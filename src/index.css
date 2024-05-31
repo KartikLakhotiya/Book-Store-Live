@@ -12,34 +12,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 /* Header */
-.header{
+.header {
   background-color: #3cb0fd;
   width: 100%;
   left: 34rem;
 }
 
 /* Sidenav CSS */
-.sidebar{
+.sidebar {
   width: 15rem;
   height: 100vh;
   position: fixed;
   border-right: 1px solid black;
   background-color: aqua;
 }
-.logo{
+
+.logo {
   height: 210px;
   width: 240px;
   margin: 0;
   margin-left: 5px;
   border: none;
 }
-.site{
+
+.site {
   display: flex;
-  
+
 }
 
-.sidebar{
+.sidebar {
   width: 16rem;
   height: 100vh;
   position: fixed;
@@ -47,7 +50,7 @@ code {
   background-color: aqua;
 }
 
-.title{
+.title {
   width: max-content;
   font-size: 1.5rem;
   font-weight: 600;
@@ -55,7 +58,7 @@ code {
   cursor: pointer;
 }
 
-.link{
+.link {
   width: 70%;
   font-size: 1.25rem;
   margin: auto;
@@ -67,11 +70,12 @@ code {
   border-radius: 10px;
   background-color: #3cb0fd;
 }
-.xyz{
+
+.xyz {
   text-decoration: none;
 }
 
-.link:hover{
+.link:hover {
   cursor: pointer;
   background-color: black;
   color: white;
@@ -81,35 +85,40 @@ code {
 
 
 /* Book Store CSS */
-ul,li{
+ul,
+li {
   list-style: none;
 }
-section{
+
+section {
   display: flex;
 }
-img{
+
+img {
   margin: 30px;
   height: 400px;
   width: 300px;
 }
-.navbar{
+
+.navbar {
   background: #3498db;
   font-family: Arial, Helvetica, sans-serif;
   padding-right: 15px;
   padding-left: 15px;
-  
+
 }
-.navdiv{
+
+.navdiv {
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-size: 35px;
   font-weight: 600;
-  color:white;
+  color: white;
   margin-left: 15rem;
 }
 
-.content{
+.content {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -117,22 +126,27 @@ img{
   align-items: center;
   height: 100vh;
 }
-.booklist{
+
+.booklist {
   margin-left: 15rem;
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   grid-row-gap: 13px;
   grid-template-columns: repeat(3, 1fr);
 }
-b{
+
+b {
   font-size: 20px;
 }
-p{
+
+p {
   margin: 0;
 }
-h2{
+
+h2 {
   margin: 0;
 }
+
 .btn {
   background: #3498db;
   background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
@@ -163,21 +177,21 @@ h2{
 
 
 .nav {
-  font-size:15px;
-  font-family:Arial;
-  width:140px;
-  height:50px;
-  border-width:1px;
-  color:#3a8a9e;
-  border-color:#d6bcd6;
-  font-weight:bold;
-  border-top-left-radius:39px;
-  border-top-right-radius:39px;
-  border-bottom-left-radius:39px;
-  border-bottom-right-radius:39px;
+  font-size: 15px;
+  font-family: Arial;
+  width: 140px;
+  height: 50px;
+  border-width: 1px;
+  color: #3a8a9e;
+  border-color: #d6bcd6;
+  font-weight: bold;
+  border-top-left-radius: 39px;
+  border-top-right-radius: 39px;
+  border-bottom-left-radius: 39px;
+  border-bottom-right-radius: 39px;
   box-shadow: 3px 4px 0px 0px #899599;
   text-shadow: 0px 1px 0px #e1e2ed;
-  background:linear-gradient(#ededed, #bab1ba);
+  background: linear-gradient(#ededed, #bab1ba);
 }
 
 .nav:hover {
@@ -185,17 +199,20 @@ h2{
   cursor: pointer;
 }
 
-img{
+img {
   transition: transform .2s;
   border: solid #2980b9;
 }
-img:hover{
+
+img:hover {
   transform: scale(1.2);
 }
-p{
+
+p {
   font-size: 24px;
 }
-#css{
+
+#css {
   background-color: #2980b9;
   display: flex;
   flex-direction: column;
@@ -204,13 +221,15 @@ p{
   margin-left: 15rem;
   margin-top: 2rem;
 }
-.foot{
+
+.foot {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-input{
+
+input {
   background-color: beige;
 }
 
@@ -267,19 +286,23 @@ textarea {
   cursor: pointer;
 }
 
-#firstName{
+#firstName {
   margin-left: 3.5rem;
 }
-#lastName{
+
+#lastName {
   margin-left: 3.5rem;
 }
-#email{
+
+#email {
   margin-left: 4rem;
 }
-#password{
+
+#password {
   margin-left: 3.8rem;
 }
-.cart{
+
+.cart {
   margin-top: 1rem;
   margin-left: 24rem;
   border: 1px solid;
@@ -287,16 +310,18 @@ textarea {
   border-radius: 40px;
   margin-right: 13rem;
 }
-.cart_heading{
+
+.cart_heading {
   margin-left: 20rem;
 
 }
-.cart_details{
+
+.cart_details {
   margin-left: 3rem;
 }
 
-.about{
-  margin-left: 45rem;
+.about {
+  margin-left: 20rem;
   height: 33.7rem;
 }
 
